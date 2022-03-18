@@ -119,7 +119,7 @@ module Agents
 #                log game
 #              end
               last_status.each do |gamebis|
-                if game == gamebis
+                if game['id'] == gamebis['id']
                   found = true
                 end
 #                if interpolated['debug'] == 'true'
